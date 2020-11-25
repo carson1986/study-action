@@ -14,5 +14,19 @@
         <module>redis-action</module>
     </modules>
 
+    <properties>
+        <guava.version>27.1-jre</guava.version>
+    </properties>
 
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
 </project>
