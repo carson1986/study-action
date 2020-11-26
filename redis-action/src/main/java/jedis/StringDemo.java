@@ -2,6 +2,9 @@ package jedis;
 
 import redis.clients.jedis.Jedis;
 
+/**
+ * redis 字符类型操作
+ */
 public class StringDemo {
 
     public void operateString(){
