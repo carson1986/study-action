@@ -13,10 +13,14 @@
     <modules>
         <module>redis-action</module>
         <module>rabbitMq-action</module>
+        <module>easypoi-action</module>
+        <module>jvm-action</module>
     </modules>
 
     <properties>
         <guava.version>27.1-jre</guava.version>
+        <lombok.version>1.16.18</lombok.version>
+        <fastjson.version>1.2.58</fastjson.version>
     </properties>
 
     <dependencyManagement>
@@ -28,6 +32,18 @@
                 <version>${guava.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
