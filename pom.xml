@@ -13,6 +13,7 @@
     <modules>
         <module>redis-action</module>
         <module>rabbitMq-action</module>
+        <module>core-action</module>
         <module>easypoi-action</module>
         <module>jvm-action</module>
     </modules>
