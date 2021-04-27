@@ -16,6 +16,7 @@
         <module>core-action</module>
         <module>easypoi-action</module>
         <module>jvm-action</module>
+        <module>dubbo-action</module>
     </modules>
 
     <properties>
