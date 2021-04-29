@@ -1,5 +1,10 @@
 package core.binary;
 
+/**
+ * 二进制操作
+ * 按位逻辑运算
+ * 位移运算
+ */
 public class BinaryExample {
 
     /**
@@ -31,13 +36,44 @@ public class BinaryExample {
         System.out.println(Integer.toHexString(s1));
     }
 
+    /**
+     * 按位逻辑运算
+     */
     public static void bitLogicalOperators(){
         System.out.println("3&1="+(3&1));
         System.out.println("-1&1="+(-1&1));
+
+        System.out.println("3|1="+(3|1));
+        System.out.println("-1|1="+(-1|1));
+
+        System.out.println("3^1="+(3^1));
+        System.out.println("-1^1="+(-1^1));
+
+        System.out.println("~3="+(~3));
+        System.out.println("~-1="+(~-1));
+    }
+
+    /**
+     * 位移运算
+     */
+    public static void bitMove(){
+        System.out.println("1<<2="+(1<<2));
+        System.out.println("-1<<2="+(-1<<2));
+
+        System.out.println("8>>2="+(8>>2));
+        System.out.println("-1>>2="+(-1>>2));
+
+        System.out.println("8>>>2="+(8>>>2));
+        System.out.println("-1>>>2="+(-1>>>2));
+
+        //-1左移几位，然后取消，可以计算出几位二进制的最大值
+        System.out.println("~(-1<<4)="+~(-1<<4));
+
     }
 
     public static void main(String[] args) {
 //        covertToBinary();
-        bitLogicalOperators();
+//        bitLogicalOperators();
+        bitMove();
     }
 }
