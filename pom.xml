@@ -17,6 +17,7 @@
         <module>easypoi-action</module>
         <module>jvm-action</module>
         <module>dubbo-action</module>
+        <module>zookeeper-action</module>
     </modules>
 
     <properties>
