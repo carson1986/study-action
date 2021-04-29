@@ -31,7 +31,13 @@ public class BinaryExample {
         System.out.println(Integer.toHexString(s1));
     }
 
+    public static void bitLogicalOperators(){
+        System.out.println("3&1="+(3&1));
+        System.out.println("-1&1="+(-1&1));
+    }
+
     public static void main(String[] args) {
-        covertToBinary();
+//        covertToBinary();
+        bitLogicalOperators();
     }
 }
