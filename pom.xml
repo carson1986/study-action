@@ -18,6 +18,7 @@
         <module>jvm-action</module>
         <module>dubbo-action</module>
         <module>zookeeper-action</module>
+        <module>designPattern-action</module>
     </modules>
 
     <properties>
